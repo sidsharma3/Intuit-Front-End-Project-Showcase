@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches WeatherInfo component Snapshot When City is Found 1`] = `
+<div
+  className="weatherDataBox"
+>
+  <div
+    className="cityInputBox"
+  >
+    <input
+      onKeyDown={[Function]}
+      placeholder="Type a City Here and Press Enter to get the Weather!"
+      type="text"
+    />
+  </div>
+  <div
+    className="weatherData"
+  >
+    <h2
+      className="location"
+      data-testid="cityAndCountryText"
+    >
+      Miami, US
+    </h2>
+    <img
+      alt="Weather Condition Icon"
+      className="weatherIcon"
+      src="https://openweathermap.org/img/wn/02d@2x.png"
+    />
+    <h1
+      className="textInfo"
+    >
+      Clouds
+    </h1>
+    <h1
+      className="textInfo"
+    >
+      Current Temp: 14.7°C
+    </h1>
+  </div>
+</div>
+`;
+
+exports[`Matches WeatherInfo component Snapshot When City is Not Found 1`] = `
+<div
+  className="weatherDataBox"
+>
+  <div
+    className="cityInputBox"
+  >
+    <input
+      onKeyDown={[Function]}
+      placeholder="Type a City Here and Press Enter to get the Weather!"
+      type="text"
+    />
+  </div>
+  <h1
+    data-testid="citynotFoundText"
+  >
+     Could Not Find Weather Data on City 
+  </h1>
+</div>
+`;

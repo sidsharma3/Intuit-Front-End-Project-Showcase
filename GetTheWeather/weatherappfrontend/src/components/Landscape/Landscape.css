@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.landscape {
+    height: 100vh;
+    width: 100%;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.land {
+    z-index: 2;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30%;
+    width: 100%;
+    border-radius: 30% 30% 0 0;
+    background-color: green;
+    border: 3px solid;
+}
+
+.sun {
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 250px;
+    width: 250px;
+    line-height: 75px;
+    text-align: center;
+    background: orange;
+    border-bottom-left-radius: 100%;
+    border: 3px solid;
+}
+    

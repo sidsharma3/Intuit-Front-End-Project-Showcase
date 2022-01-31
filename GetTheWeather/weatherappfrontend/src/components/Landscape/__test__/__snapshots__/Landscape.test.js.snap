@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches Landscape component Snapshot 1`] = `
+<div
+  className="landscape"
+>
+  <div
+    className="weatherDataBox"
+  >
+    <div
+      className="cityInputBox"
+    >
+      <input
+        onKeyDown={[Function]}
+        placeholder="Type a City Here and Press Enter to get the Weather!"
+        type="text"
+      />
+    </div>
+    <h1
+      data-testid="citynotFoundText"
+    >
+       Could Not Find Weather Data on City 
+    </h1>
+  </div>
+  <div
+    className="land"
+    style={
+      Object {
+        "backgroundColor": "green",
+      }
+    }
+  />
+  <div
+    className="sun"
+  />
+</div>
+`;
